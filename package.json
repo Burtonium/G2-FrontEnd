@@ -1,7 +1,7 @@
 {
   "name": "ember-app",
   "version": "0.0.0",
-  "description": "Small description for ember-app goes here",
+  "description": "Front end for Garago",
   "private": true,
   "directories": {
     "doc": "doc",

@@ -20,8 +20,19 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+    contentSecurityPolicy: {
+      'default-src': "'none'",
+      'script-src': "'self' http://node-from-scratch-burtonium.c9users.io:8082",
+      'font-src': "'self'",
+      'connect-src': "self' ws://node-from-scratch-burtonium.c9users.io:8082",
+      'img-src': "'self'",
+      'style-src': "'self' http://node-from-scratch-burtonium.c9users.io:8082",
+      'media-src': "'self'"
+      
     }
   };
+
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;

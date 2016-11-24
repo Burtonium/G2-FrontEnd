@@ -1,0 +1,9 @@
+<h2>List of Users</h2>
+
+<ul>
+    {{#each model as |user|}}
+    <li>{{user}}</li>
+    {{/each}}
+</ul>
+
+{{user-list title="List of Users" users=model}}
