@@ -23,13 +23,13 @@ module.exports = function(environment) {
     },
     contentSecurityPolicy: {
       'default-src': "'none'",
-      'script-src': "'self' http://node-from-scratch-burtonium.c9users.io:8082",
+      'script-src': "'self' http://node-from-scratch-burtonium.c9users.io:8081",
       'font-src': "'self'",
-      'connect-src': "self' ws://node-from-scratch-burtonium.c9users.io:8082",
       'img-src': "'self'",
-      'style-src': "'self' http://node-from-scratch-burtonium.c9users.io:8082",
-      'media-src': "'self'"
-      
+      'style-src': "'self' http://node-from-scratch-burtonium.c9users.io:8081",
+      'media-src': "'self'",
+      'connect-src' : "'self' https://localhost:8080"
+  
     }
   };
 

@@ -1,5 +1,4 @@
 {
   "disableAnalytics": false,
-  "live-reload-port": 8081,
-  "port": 8080
+  "live-reload-port": 8082
 }
